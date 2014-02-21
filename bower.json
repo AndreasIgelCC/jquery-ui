@@ -9,5 +9,10 @@
 	],
 	"dependencies": {
 		"jquery": ">=1.6"
+	},
+	"devDependencies": {
+		"jquery-mousewheel": "3.1.0",
+		"jshint": "2.3.0",
+		"qunit": "1.14.0"
 	}
 }

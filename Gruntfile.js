@@ -213,6 +213,31 @@ grunt.initConfig({
 			src: "build/**/*.js"
 		},
 		grunt: "Gruntfile.js"
+	},
+
+	bowercopy: {
+		options: {
+			clean: true
+		},
+		qunit: {
+			files: {
+				"external": "qunit/qunit"
+			}
+		},
+		// can be updated to 3.1.9
+		mousewheel: {
+			files: {
+				"external": "jquery-mousewheel/*.js"
+			}
+		},
+		// can be updated to 2.4.4
+		jshint: {
+			files: {
+				"external": "jshint/dist/*shint.js"
+			}
+		},
+		// TODO specify the correct version in bower.js
+		"jquery.js": "jquery/dist/jquery.js"
 	}
 });
 
